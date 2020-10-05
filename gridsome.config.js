@@ -23,13 +23,15 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: 'MAAD lab',
+  siteName: 'Flare - Manual',
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: '@gridsome/vue-remark',
       options: {
-        path: 'content/**/*.md',
         typeName: 'Content',
+        baseDir: './content',
+        path: '/',
+        template: './src/templates/Content.vue',
         remark: {
           // remark options
         },

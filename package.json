@@ -1,5 +1,5 @@
 {
-  "name": "maad-lab-ssr",
+  "name": "flare-manual",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.1",
-    "@lkmx/flare": "0.24.0",
+    "@gridsome/vue-remark": "^0.2.5",
+    "@lkmx/flare": "0.28.5",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
